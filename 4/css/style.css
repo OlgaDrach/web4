@@ -1,0 +1,38 @@
+.ro{
+    height: 55px; 
+    width: 100px; 
+    margin: 45px auto 0;
+    background: yellowgreen;
+    position: relative;
+    padding: 10px 4px;
+    }
+    .ro:before {
+        content: "";
+        height: 0; 
+        width: 0;
+        position: absolute; 
+        left: 0; 
+        top: -55px;
+        border-bottom: 35px solid greenyellow;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        padding: 10px 4px;
+    }
+.ro1{
+    height: 55px; 
+    width: 100px; 
+    margin: 25px 15px 0 142px;
+    background: pink;
+    position: fixed;
+            }
+    .ro1:before {
+        content: "";
+        height: 0; 
+        width: 0;
+        position: absolute; 
+        left: 0; 
+        top: -35px;
+        border-bottom: 35px solid purple;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+}      
